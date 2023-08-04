@@ -15,8 +15,15 @@ Feature: To test the functionlity of Orange HRM Application
     
     #Created by Pooja
     
-    Scenario:Test Contact Page Functionality
+    Scenario: Test Contact Page Functionality
     When user is on Admin page
     And user enter valid username
     And user enter Employee Name
     Then click on Search button
+    
+Scenario: Test Contact Page Functionality
+    When user is on Admin page
+    And user enter valid username
+    And user enter Employee Name
+    Then click on Search button
+    
