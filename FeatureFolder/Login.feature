@@ -12,3 +12,11 @@ Feature: To test the functionlity of Orange HRM Application
     And user click on AddEmplyeeButton
     And user enter FirstName and MiddelName and LastName
     Then click on Save Button
+    
+    #Created by Pooja
+    
+    Scenario:Test Contact Page Functionality
+    When user is on Admin page
+    And user enter valid username
+    And user enter Employee Name
+    Then click on Search button
